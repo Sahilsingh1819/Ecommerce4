@@ -12,7 +12,7 @@ public class NewTest {
 		WebDriver driver = new ChromeDriver();
 		//	WebDriver driver=Start.getChrome();
 		Amazon amazon=new Amazon(driver);
-		amazon.step5("7000276337", "Sahil123!@#");
+		amazon.step5("", "");
 		
 		
 		
