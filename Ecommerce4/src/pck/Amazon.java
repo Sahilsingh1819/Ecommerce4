@@ -49,12 +49,12 @@ public class Amazon {
 	        
 	        
 	        // Fill email 
-//	        String MobileNumber = "7000276337";
+//	        String MobileNumber = "";
 	        driver.findElement(By.id("ap_email")).sendKeys(MobileNumber);
 	        driver.findElement(By.id("continue")).click();
 
 	        // Fill Password
-//	        String Password = "Sahil123!@#";
+//	        String Password = "";
 	        driver.findElement(By.name("password")).sendKeys(Password);
 
 	       
